@@ -1,11 +1,37 @@
-# PixelVista
+# Pixel Vista
 
-Clean photo gallery assignment project built with React, Vite, and Tailwind CSS.
+Modern and responsive photo gallery project built with React, Vite, and Tailwind CSS.
 
-## Clean Project Structure
+## Preview
+
+![Home Preview](assets/screenshots/home-preview.png)
+
+![Gallery Preview](assets/screenshots/gallery-preview.png)
+
+## Highlights
+
+- Fast React + Vite setup for smooth development experience
+- Responsive gallery layout for mobile, tablet, and desktop
+- Author-based search for quick filtering
+- Favorites management using reducer-based state flow
+- Local storage persistence for saved favorites
+- Large image preview modal for better browsing
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+
+## Project Structure
 
 ```text
 photo-gallery-app/
+  assets/
+    screenshots/
+      gallery-preview.png
+      home-preview.png
   public/
     pixelvista-logo.png
   src/
@@ -22,37 +48,26 @@ photo-gallery-app/
     App.jsx
     index.css
     main.jsx
-  .gitignore
   index.html
   package.json
-  package-lock.json
-  postcss.config.js
-  README.md
   tailwind.config.js
   vite.config.js
 ```
 
-## Features
-
-- Fetches 30 photos from `https://picsum.photos/v2/list?limit=30`
-- Loading and error states
-- Responsive grid (1 mobile, 2 tablet, 4 desktop)
-- Real-time author search
-- Favourites with `useReducer`
-- `localStorage` persistence
-- Image preview modal
-
-## Run
+## Getting Started
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## Production Build
 
 ```bash
 npm run build
 npm run preview
 ```
-# Pixel-Vista
+
+## Author
+
+Sekhar
